@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:taleemLo/src/pages/login.dart';
 import 'package:taleemLo/src/screen/home_screen.dart';
 
 class App extends StatelessWidget {
@@ -7,7 +8,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'TaleemLo',
-      home: HomeScreen(),
+      home: Login(),
     );
   }
 }
