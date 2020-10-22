@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:taleemLo/src/eventhelper.dart';
 
 import '../helper.dart';
+=======
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
 
 class HomePage extends StatefulWidget {
   @override
@@ -71,7 +74,11 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         Text(
+<<<<<<< HEAD
                           AppHelper.instance.studentModel.todayAttendance,
+=======
+                          'Absent',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                           style: TextStyle(fontSize: 20),
                         )
                       ],
@@ -89,7 +96,11 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         Text(
+<<<<<<< HEAD
                           AppHelper.instance.studentModel.yesterdayAttendance,
+=======
+                          'Present',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                           style: TextStyle(fontSize: 20),
                         )
                       ],
@@ -115,7 +126,11 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ),
                         Text(
+<<<<<<< HEAD
                           AppHelper.instance.studentModel.feeStatus,
+=======
+                          'Paid',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                           style: TextStyle(fontSize: 20),
                         )
                       ],
@@ -156,7 +171,11 @@ class _HomePageState extends State<HomePage> {
                   child: Column(
                     children: [
                       Text(
+<<<<<<< HEAD
                         EventHelper.instance.eventModel.title,
+=======
+                        'News/Events',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                         style: TextStyle(
                             fontSize: 23, fontWeight: FontWeight.bold),
                       ),
@@ -165,7 +184,11 @@ class _HomePageState extends State<HomePage> {
                       ),
                       Center(
                         child: Text(
+<<<<<<< HEAD
                           EventHelper.instance.eventModel.body,
+=======
+                          'Corona Virus Alert: \n\nSchool will be off from March 16th to September 15th.',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                           style: TextStyle(fontSize: 20),
                         ),
                       )

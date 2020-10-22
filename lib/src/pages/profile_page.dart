@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:taleemLo/src/helper.dart';
+=======
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
 
 class ProfilePage extends StatefulWidget {
   @override
@@ -58,7 +61,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20),
                     ),
                     Text(
+<<<<<<< HEAD
                       AppHelper.instance.studentModel.name,
+=======
+                      'Ali Ahmad',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                       style: TextStyle(fontSize: 20),
                     )
                   ],
@@ -90,7 +97,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20),
                     ),
                     Text(
+<<<<<<< HEAD
                       AppHelper.instance.studentModel.fName,
+=======
+                      'M. Ahmad',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                       style: TextStyle(fontSize: 20),
                     )
                   ],
@@ -122,7 +133,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20),
                     ),
                     Text(
+<<<<<<< HEAD
                       AppHelper.instance.studentModel.id.toString(),
+=======
+                      '1007',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                       style: TextStyle(fontSize: 20),
                     )
                   ],
@@ -154,7 +169,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20),
                     ),
                     Text(
+<<<<<<< HEAD
                       AppHelper.instance.studentModel.className,
+=======
+                      'Two',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                       style: TextStyle(fontSize: 20),
                     )
                   ],
@@ -186,7 +205,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20),
                     ),
                     Text(
+<<<<<<< HEAD
                       AppHelper.instance.studentModel.sectionName,
+=======
+                      'A',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                       style: TextStyle(fontSize: 20),
                     )
                   ],
@@ -218,7 +241,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20),
                     ),
                     Text(
+<<<<<<< HEAD
                       AppHelper.instance.studentModel.gender,
+=======
+                      'Male',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                       style: TextStyle(fontSize: 20),
                     )
                   ],
@@ -250,7 +277,11 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20),
                     ),
                     Text(
+<<<<<<< HEAD
                       AppHelper.instance.studentModel.ph,
+=======
+                      '03127652349',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                       style: TextStyle(fontSize: 20),
                     )
                   ],

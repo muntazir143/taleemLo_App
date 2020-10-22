@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:taleemLo/src/helper.dart';
 import 'package:taleemLo/src/pages/about.dart';
 import 'package:taleemLo/src/pages/homepage.dart';
 import 'package:taleemLo/src/pages/login.dart';
 import 'package:taleemLo/src/pages/profile_page.dart';
+=======
+import 'package:taleemLo/src/pages/about.dart';
+import 'package:taleemLo/src/pages/homepage.dart';
+import 'package:taleemLo/src/pages/profile_page.dart';
+import 'package:taleemLo/src/pages/settings.dart';
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
 
 class DrawerItems {
   String title;
@@ -16,6 +23,10 @@ class HomeScreen extends StatefulWidget {
     DrawerItems("Dashboard", Icons.dashboard),
     DrawerItems("Profile", Icons.person),
     DrawerItems("About", Icons.info),
+<<<<<<< HEAD
+=======
+    DrawerItems("Settings", Icons.settings),
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
   ];
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -32,6 +43,11 @@ class _HomeScreenState extends State<HomeScreen> {
         return ProfilePage();
       case 2:
         return About();
+<<<<<<< HEAD
+=======
+      case 3:
+        return Settings();
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
       default:
         return print('Error');
     }
@@ -81,12 +97,21 @@ class _HomeScreenState extends State<HomeScreen> {
                 Colors.blue[600],
                 Colors.blue[900]
               ])),
+<<<<<<< HEAD
               accountEmail: Text(AppHelper.instance.studentModel.id.toString()),
               accountName: Text(AppHelper.instance.studentModel.name),
               currentAccountPicture: CircleAvatar(
                 backgroundColor: Colors.white,
                 child: Text(
                   AppHelper.instance.studentModel.name[0],
+=======
+              accountName: Text('TaleemLo'),
+              accountEmail: Text('taleemlo@gmail.com'),
+              currentAccountPicture: CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Text(
+                  'T',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                   style: TextStyle(fontSize: 25),
                 ),
               ),
@@ -94,7 +119,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 CircleAvatar(
                   backgroundColor: Colors.white,
                   child: Text(
+<<<<<<< HEAD
                     AppHelper.instance.studentModel.name[0],
+=======
+                    'T',
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                   ),
                 )
               ],
@@ -110,10 +139,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     trailing: Icon(Icons.exit_to_app),
                     onTap: () {
                       Navigator.of(context).pop();
+<<<<<<< HEAD
 
                   Navigator.pushReplacement(context, MaterialPageRoute(builder: (context){
                     return Login();
                   }));
+=======
+>>>>>>> 5bd28953d5c475eb0df82bc5cfbe317c693caaea
                     },
                   ),
                   SizedBox(
