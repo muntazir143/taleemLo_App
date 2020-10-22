@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class ContactAdmin extends StatefulWidget {
   @override
@@ -7,13 +7,14 @@ class ContactAdmin extends StatefulWidget {
 }
 
 class _ContactAdminState extends State<ContactAdmin> {
-  _launchUrl(url) async {
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'could not launch $url';
-    }
-  }
+  // _launchUrl(url) async {
+  //   if (await canLaunch(url)) {
+  //     await launch(url);
+  //   } else {
+  //     throw 'could not launch $url';
+  //   }
+  // }
+  
 
   @override
   Widget build(BuildContext context) {
@@ -41,8 +42,8 @@ class _ContactAdminState extends State<ContactAdmin> {
               SizedBox(height: 10),
               FlatButton(
                 onPressed: () {
-                  _launchUrl(
-                      'mailto:smmr143@email.com?subject=Account Opening%20subject&body=test%20body');
+                  // _launchUrl(
+                  //     'mailto:smmr143@email.com?subject=Account Opening%20subject&body=test%20body');
                 },
                 padding: EdgeInsets.all(0),
                 child: Ink(
@@ -70,7 +71,7 @@ class _ContactAdminState extends State<ContactAdmin> {
                           color: Colors.white,
                         ),
                         SizedBox(width: 5),
-                        Text('Mail', style: TextStyle(color: Colors.white))
+                        Text('Mail: taleemlo@gmail.com', style: TextStyle(color: Colors.white))
                       ],
                     ),
                   ),
@@ -90,7 +91,7 @@ class _ContactAdminState extends State<ContactAdmin> {
               FlatButton(
                 padding: EdgeInsets.all(0),
                 onPressed: () {
-                  _launchUrl('tel: 03436332887');
+                  // _launchUrl('tel: 03436332887');
                 },
                 child: Ink(
                   decoration: BoxDecoration(
@@ -117,7 +118,7 @@ class _ContactAdminState extends State<ContactAdmin> {
                             color: Colors.white,
                           ),
                           SizedBox(width: 5),
-                          Text('Call', style: TextStyle(color: Colors.white))
+                          Text('Call: 03436332887', style: TextStyle(color: Colors.white))
                         ],
                       )),
                 ),
